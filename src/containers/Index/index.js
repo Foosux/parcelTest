@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import './index.styl'
 
 export default class extends PureComponent {
   constructor(props) {
@@ -13,6 +14,7 @@ export default class extends PureComponent {
     console.log('State:', state, props)
     return (<section>
       { this.state.say }
+      <div className='test'>这里是一个方块</div>
     </section>)
   }
 }
