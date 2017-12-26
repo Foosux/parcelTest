@@ -1,0 +1,8 @@
+node_modules
+libraries
+dist
+*/node_modules
+*/libraries
+*.DS_Store
+*/npm-debug.log
+.cache/
